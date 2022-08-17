@@ -1,0 +1,375 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+    Ubuntu, Cantarell, 'Open Sans',
+     'Helvetica Neue', sans-serif;
+
+}
+nav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.19);
+    border-bottom: 1px solid #fff;
+}
+nav .logo{
+    padding-bottom: 10px;
+    height: 10px;
+    padding: 7px 41px;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: -33px;
+}
+nav h2:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ;
+    cursor: pointer;
+
+}
+nav a:hover::after{
+    text-decoration: underline;
+    color: #FF9900;
+}
+span{
+    color: yellow;
+}
+
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+nav ul li{
+    padding-left: 40px;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul ul {
+    display: none;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url(../wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+
+}
+.tit h1 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 1cm;
+    text-transform: uppercase;
+    color: #fff;
+
+
+}
+.container{
+    width: 1175px;
+    margin: auto;
+
+}
+.feature-sec{
+    background-color:rgb( 38, 26 ,26);
+    margin-top: -40px;
+    height: 600px;
+}
+.htitle{
+    text-align: center;
+    color: #fff;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+.feature{
+    margin-top: -100px;
+}
+h3{
+    color: #FF9900;
+    text-transform: uppercase;
+    text-align: center;
+}
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+}
+.feat-flex .golf:hover{
+    transform: translateY(-20px);
+    transition: all 0.5s ease;
+}
+.feat-flex{
+    width: 33.33%;
+}
+.golf{
+    margin-top: 103px;
+}
+.golf p{
+    color: #fff;
+    font: italic;
+}
+.golf .img{
+   transition: ease-in-out;
+}
+.most-car h2{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.mf{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.title{
+    font-size: 25px;
+    text-align: center;
+    color: yellow;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: 500;
+    padding-left: 80px;
+}
+.hov-sec{
+    background:  rgb(56, 38, 38);
+    margin-top: -30px;
+}
+.hovse{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 6px;
+    margin-left: 32px;
+    
+ }
+ .hov p{
+    color: #Fff;
+ }
+ .hov:hover{
+    background-color: #FF9900;
+    color: #fff;
+    transform: translateY(-10px);
+    transition: all 0.5s ;
+    
+    
+   
+ }
+ .imaghov h3{
+    color:#Fff;
+}
+.hov p{
+    text-align: left;
+}
+
+
+ .hov{
+    width: 33.33%;
+    padding-right: 30px;
+    box-shadow: 0 0 10px black;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: -24px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+ }
+ .imaghov i {
+    font-size: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: #fcf823;
+    border: black;
+ }
+.our{
+    text-align: center;
+    padding: 10px;
+    padding-left: 80px;
+    font-size: 1cm;
+    text-transform: uppercase;
+    color: #fcf823;
+    font-weight: 500;
+
+}
+
+.brands{
+    padding-top: 1px;
+    padding-bottom: 36px;
+    background: rgb(56, 38, 38);
+}
+.brands .gm{
+    margin-top: 20px;
+    width: 8%;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 117px;
+    overflow: hidden; 
+}
+.brands .gm:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+.tes{
+ position: relative;
+ top: 72px; 
+ left: -75px;
+}
+.smba{
+    text-align: center;
+    margin-top: 24px;
+    padding: 30px;
+    margin-top: -30px;
+    margin-bottom: -40px;    
+}
+.small{
+    background-color:rgb( 38, 26 ,26);
+    height: 200px;
+
+}
+
+
+.parali{
+    margin-top: -35px;
+}
+.parallax h1{
+    text-align: center;
+    font-size: 1cm;
+    text-transform: uppercase;
+    color: #fcf823;
+    font-weight: 500;
+    background-color: rgb(56, 38, 38);
+    margin-bottom: -35px;
+    padding: 10px;
+}
+
+.parallax h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fcf823;
+    font-weight: 100;
+    background-color: rgb(56, 38, 38);
+    margin-bottom: -30px;
+}
+.parallax-1{
+    width: 100%;
+    height: 500px;
+    background: url(../images/main-slider-04.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.parallax-1 h2{
+    margin: auto;
+    position: relative;
+    left: 30px;
+    top: 200px;
+    width: 250px;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 3px 1px #ff9900;
+    text-align: center;
+    font-size: 1cm;
+    text-transform: uppercase;
+
+}
+.parallux-2{
+    width: 100%;
+    height: 600px;
+    background: url(../pexels-pixabay-290470.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.parallux-2 h2{
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 40%;
+    font-weight: 900;
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 3px 1px #ff9900;
+} 
+ .para-1 {
+    padding: 50px;
+    background-color:  rgb(56, 38, 38);
+    color: white;
+    font-size: 17px;
+}
+.para-2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 17px;
+    font-family: Verdana;
+    background-color: rgb(56, 38, 38);
+    color: white;
+}
+.u20{
+    background: url(../images/what-you-waiting-600w-580146490.webp);
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    background-position: center;
+   background-attachment: fixed;                }
+
+
+
+
+   #sclass{
+        
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 400px;
+     
+}
+      
+.vidcontent{
+        margin-top: -200px;
+        background: rgba(0, 0, 0, #Fff);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        text-transform: uppercase;
+    
+      }
+.team-list{
+    display: flex;
+    
+
+}
+.team-box{
+    padding-right: 15px;
+    padding-left: 15px; 
+    
+}
+.sara{
+   height: 30px;
+}
+
